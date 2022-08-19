@@ -40,9 +40,9 @@ This repository holds a project to predict the final price of each home with the
 
  *    Problem Formulation:
     * Machine Learning Model:
-           * Input: x, y train sets of data with all attributes of the house properties and history.
-           * Output: Predicted sale price of house
-           * Used Score()
+        * Input: x, y train sets of data with all attributes of the house properties and history.
+        * Output: Predicted sale price of house
+        * Used Score()
    
 * Training:
     * Training for the datasets for Linear Regression, and Random Forest model were completed within few seconds, while the Light Gradient Bright Regressor took about 3 minutes to completely train the data.
@@ -67,11 +67,17 @@ With the above data analysis, the predictions from Random Forest and Light Gradi
 ## How to reproduce results:
 
  * [modules](https://github.com/lasta11/House_Prices_Regression-Project/tree/main/modules)
+    
     * data_preparation.py : function to find the missing values in the datasetm clean the attributes with maximum number of missing values and replace it with mean score. This function will return a ready to use dataset for further analysis or training.
+    
     * exploratory_data_analysis.py : function to learn about correlation between the properties of dataset and also separate scatterplots and bargraphs to see the relation between the attributes.
+    
     * LGBR_model.py : function to help train the dataset using Light Gradient Boosting Regressor.
+    
     * LR_model.py : function to help train the dataset using Linear Regression model.
+    
     * RF_model.py : function to help train the dataset using Random Forest Model.
+    
     * graph_predicted_models.py : function to visualize the change of house prices with 3 different methods.
     
  
