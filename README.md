@@ -19,7 +19,7 @@ This repository holds a project to predict the final price of each home with the
 
 * Preprocessing/ Clean up:
 
-   * In preparing the data, I firstly counted the number of Missing values or NaN in the both datasets. The attributes having more than 20% missing values were removed, assuming the data to be more reliable.
+   * In preparing the data, I firstly counted the number of Missing values or NaN in the both datasets. The attributes having more than 20% missing values were removed, for the data to be more reliable.
    * I then created a function that keeps only the attributes with less than 20% of missing values and missing values were replaced with mean score of the attribute.
    * About, 3 of the attributes were removed for having many missing values.
    * I then created a another function, to separate numeric and categorical values in the datasets.
@@ -33,7 +33,7 @@ This repository holds a project to predict the final price of each home with the
 
     Here are some examples of data visualization :
 
-      ![pics](https://github.com/lasta11/House_Prices_Regression-Project/blob/main/Example%20images/SalesPrice_Vs_MonthSold.png)
+      ![pics](https://github.com/lasta11/House_Prices_Regression-Project/blob/main/Example%20images/SaleCondition_bargraph.png)
        ![pics](https://github.com/lasta11/House_Prices_Regression-Project/blob/main/Example%20images/SalesPrice_Vs_AverageBedroom.png)
        ![pics](https://github.com/lasta11/House_Prices_Regression-Project/blob/main/Example%20images/SalesPrice_Vs_House_remodled.png)
 
