@@ -33,7 +33,7 @@ This repository holds a project to predict the final price of each home with the
 
 ## Future Work:
 
-##How to reproduce results:
+## How to reproduce results:
 
 ## Software Setup 
 * Package used in notebook: pandas, numpy, matplotlib, pyplot, seaborn, warnings, sklearn
