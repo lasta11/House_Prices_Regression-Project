@@ -79,6 +79,9 @@ With the above data analysis, the predictions from Random Forest and Light Gradi
     * RF_model.py : function to help train the dataset using Random Forest Model.
     
     * graph_predicted_models.py : function to visualize the change of house prices with 3 different methods.
+ 
+ * [main.ipynb](https://github.com/lasta11/House_Prices_Regression-Project/blob/main/main.ipynb)
+    This notebook will help to guide through each step of this project.
     
  
 ## Software Setup 
